@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.files = ["Rakefile", "lib/hola.rb", "lib/hola/translator.rb", "bin/hola"]
   s.test_files = ["test/test_hola.rb"]
   s.require_paths = ["lib"]
+  s.add_dependency 'activerecord',    '>= 3.1.2', '< 6.0'
   s.rubygems_version = %q{1.6.2}
   s.summary = %q{Hola!}
 

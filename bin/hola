@@ -2,3 +2,4 @@
 
 require 'hola'
 puts Hola.hi
+puts ActiveRecord::Base
