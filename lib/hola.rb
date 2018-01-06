@@ -1,7 +1,7 @@
 class Hola
   def self.hi
-     puts "Hello world!"
-     puts ActiveRecord::Base
+     puts ActiveRecord::Base.inspect
+     puts "Hello world      !"
   end
 end
 
