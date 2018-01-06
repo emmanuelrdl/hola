@@ -1,5 +1,5 @@
 class Hola
-  def self.hi
+  def self.ho
      puts ActiveRecord::Base.inspect
      puts "Hello world      !"
   end
